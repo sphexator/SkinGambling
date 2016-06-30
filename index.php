@@ -97,8 +97,11 @@ if($premium==1)
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Site description">
-<meta name="author" content="Website.com">
+<meta name="description" content="A CSGO jackpot and coinflip site with monthly free giveaways!">
+<meta name="author" content="Skinz4u.com">
+<meta property="og:image" content="img/preview.png" />
+<meta property="og:title" content="Skinz4u" />
+<meta property="og:description" content="A CSGO jackpot and coinflip site with monthly free giveaways!" />
 
 <link rel="shortcut icon" href="defico.png">
 
