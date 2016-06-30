@@ -99,14 +99,15 @@ if($premium==1)
 	}
 }
  ?>
-
- <!-- TITLE FOR JACKPOT SITE -->
  <?php
+ @include_once('link.php');
+ @include_once('steamauth/steamauth.php');
  $cg = fetchinfo("value","p2info","name","current_game");
- $cb = fetchinfo("cost","games","id",$cg);
+ $cb = fetchinfo("cost","p2games","id",$cg);
  $cb=round($cb,2);
+ echo '$'.$cb;
+
  ?>
-<!-- END OF JACKPOT TITLE -->
 <!DOCTYPE html>
 <html>
     <head>
@@ -117,7 +118,7 @@ if($premium==1)
 
         <link rel="shortcut icon" href="defico.png">
 
-        <title><?php echo "$",$cb," ",$title; ?></title>
+        <title><?php echo "$",$cb," - ",$title; ?></title>
 
         <!--Morris Chart CSS -->
 		    <link rel="stylesheet" href="assets/plugins/morris/morris.css">
