@@ -1,0 +1,137 @@
+/*  CONTENT */
+.content-page-improved {
+  margin-left:auto;
+  margin-right: auto;
+  width:1500px;
+  max-width:100%;
+  margin-top: 60px;
+  padding: 20px 5px 15px 5px;
+}
+.jackpot-content-page-improved {
+  margin-left:auto;
+  margin-right: auto;
+  width:1500px;
+  max-width:100%;
+  margin-top: 60px;
+  padding: 20px 5px 15px 5px;
+}
+.left-side-panel-improved {
+  text-align: left;
+  position: relative;
+  left:0px;
+  top:0px;
+  width: 250px;
+  clear:none;
+}
+.right-side-panel-improved {
+  text-align: left;
+  position: relative;
+  right:0px;
+  top:0px;
+  width: 250px;
+  clear:none;
+}
+.side-chat-improved {
+  position: relative;
+  width: 100%;
+  clear: none;
+  margin-left: 0;
+}
+.side-chat-scroll-improved {
+  height: 450px;
+  overflow:auto;
+}
+.card-box-improved {
+  border: 1px solid #f1db38;
+  background-color: #1C2529;
+}
+.card-box-improved ul {
+  list-style-type: none;
+}
+.card-box-improved li {
+  list-style-type: none;
+}
+.row {
+  display: inline-flex;
+}
+.row-improved {
+  display: inline;
+}
+.main-content-improved {
+  position: relative;
+  width: 700px;
+  top: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.host-content-improved {
+  position: relative;
+  width: 100%;
+  top: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.card-box-main {
+  margin:auto;
+  width: 100%;
+  align-items: center;
+}
+/* JACKPOT */
+
+.jacpot-progress-improved {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.jackpot-panels-improved {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+.jackpot-card-box-improved {
+  align-items: center;
+  border: 1px solid #f1db38;
+  background-color: #1C2529;
+  position: relative;
+  top: 10%;
+  margin-bottom:20px;
+/*  margin-top: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-top: 20px;
+  padding-bottom: 10px; */
+  width:100%;
+}
+.jackpot-deposit-improved {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+}
+/*  LOGO  */
+.logo-improved{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  FOOTER  */
+.footer-improved {
+  text-align: center;
+  border-top: 1px solid #f1db38;
+  left:0px;
+  right:0px;
+  background-color: #1c2529;
+  position:absolute;
+  bottom:0 !important;
+  width:100%;
+}
+.footer-icons-improved{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.footer-icons-improved li {
+  display: inline-block;
+}
