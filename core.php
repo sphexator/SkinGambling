@@ -1,5 +1,5 @@
 <?php
-$title = "skinz4u"; // This will be the title of your site, also shown in the top left corner
+$title = "Skinz4u"; // This will be the title of your site, also shown in the top left corner
 
 $bot1id='76561198191603979'; // SteamID64 Which can be found at steamid.io
 $bot1url='https://steamcommunity.com/tradeoffer/new/?partner=231338251&token=17LeuG47'; // Trade URL of your first bot
@@ -41,7 +41,7 @@ if($reddit)
 Temp. removed, slow response from is.steam.rip and inaccurate response from the other one
 
 
-function get_steam_status($steamID64, $timeout = 5) 
+function get_steam_status($steamID64, $timeout = 5)
   {
     $context = stream_context_create(array('http' => array('timeout' => $timeout)));
     $file = @file_get_contents('http://steamcommunity.com/profiles/' . $steamID64 . '/?xml=1', false, $context);
@@ -70,7 +70,7 @@ else
 	$steamd='<i title="Steam Services are Offline" class="fa fa-steam-square text-red"></i>';
 	$steamstatus='<font color="green">Offline</font>';
 }
-  
+
 $bot1=get_steam_status($bot1id);
 if (strpos($bot1, "Online") === FALSE)
 {
