@@ -99,6 +99,14 @@ if($premium==1)
 	}
 }
  ?>
+
+ <!-- TITLE FOR JACKPOT SITE -->
+ <?php
+ $cg = fetchinfo("value","p2info","name","current_game");
+ $cb = fetchinfo("cost","games","id",$cg);
+ $cb=round($cb,2);
+ ?>
+<!-- END OF JACKPOT TITLE -->
 <!DOCTYPE html>
 <html>
     <head>
@@ -109,7 +117,7 @@ if($premium==1)
 
         <link rel="shortcut icon" href="defico.png">
 
-        <title><?php echo $title; ?></title>
+        <title><?php echo "$",$cb," ",$title; ?></title>
 
         <!--Morris Chart CSS -->
 		    <link rel="stylesheet" href="assets/plugins/morris/morris.css">
